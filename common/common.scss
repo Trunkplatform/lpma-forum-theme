@@ -45,3 +45,207 @@ body textarea {
   max-width: 100% !important;
   height: auto;
 }
+
+// Custom css
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #F3F5F6;
+}
+
+.wrap {
+    max-width: 758px;
+}
+
+#ember822, #ember825 {
+    display: none;
+}
+
+#main-outlet {
+    background-color: #fff;
+    padding: 24px;
+    margin-top: 120px;
+    box-shadow: 0px 0px 10px #CAD7DC;
+}
+
+#main {
+    overflow: hidden;
+}
+
+#create-topic {
+    background: linear-gradient(180deg, #70BF54 0%, #569A3E 100%);
+    border: 1px solid rgba(98, 168, 73, 0.4);
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 12px 24px;
+    color: #fff;
+}
+
+#create-topic:hover {
+    background: linear-gradient(180deg, #93E675 0%, #61AE46 100%);
+    border: 1px solid rgba(98, 168, 73, 0.4);
+}
+
+.d-editor-button-bar > button {
+    background: none;
+}
+
+.topic-footer-main-buttons > button, .widget-button, .select-kit-header {
+    background: none;
+    color: #595959;
+    border: 1px solid #cad7dc;
+}
+
+#ember1014 {
+    border: 1px solid #cad7dc;
+    border-radius: 100px;
+}
+
+.topic-list th, .topic-list td {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.category, .posters, .views, .activity {
+    display: none;
+}
+
+.list-controls::before {
+    content: "View posts by:";
+    display: block;
+    float: left;
+    padding: 5px 17px 0 0;
+}
+
+// Navigation
+
+/*Adding DOW links to top - link text section*/
+span#top-navbar-links {
+    display:block !important;
+    margin:22px 0 0 0;
+}
+
+
+/*Start dropping DOW Menu links & shortening title on small windows*/
+
+.extra-info-wrapper .topic-link {
+    max-width:600px;
+}
+
+@media (min-width: 1150px) {
+    .extra-info-wrapper .topic-link {
+        max-width:600px;
+         padding-right:250px;
+    }
+}
+
+@media (max-width: 1149px) {
+    div.title-wrapper {
+         padding-right:280px;
+    }
+}
+
+@media (min-width: 999px) {
+    /*Adding DOW links to top - link container */
+    div#top-navbar {
+        max-width:none; /*remove max width*/
+        width: auto; /*prevent other widths taking over*/
+        z-index: 1040; /*stays on top of other header*/
+        /*position:relative;
+        float:left;*/
+        position:fixed;
+        top:0;
+        left: 43%;
+    }
+}
+
+@media (max-width: 998px) {  /*jumpover point, attach to right side*/
+
+    div.title-wrapper {
+        padding-right:220px;
+    }
+
+   /*Adding DOW links to top - link text section*/
+span#top-navbar-links {
+  position: fixed;
+  top: 0;
+  margin:22px 0px 0px -385px;
+    }
+
+    div#top-navbar {
+    max-width:none; /*remove max width*/
+    width: auto; /*prevent other widths taking over*/
+    z-index: 1040; /*stays on top of other header*/
+    float:right;
+    position:relative;
+    }
+}
+
+@media (max-width: 900px) {  /*jumpover point*/
+/*div#top-navbar {
+    left: 50%;
+}*/
+    div.title-wrapper {
+        padding-right:220px;
+    }
+}
+
+@media (max-width: 725px) {
+    a.dow-menu#library {
+        display:none;
+}
+    div.title-wrapper {
+        padding-right:135px;
+    }
+    span#top-navbar-links {
+        margin-left:-290px;
+    }
+}
+
+@media (min-width: 571px) {
+   i.fa.fa-home:before {
+       display:none;
+   }
+}
+
+@media (max-width: 570px) {
+    a.dow-menu#store {
+        display:none;
+    }
+    span#top-navbar-links {
+        margin:19px 0 0 -220px;
+    }
+
+    i.fa.fa-home:before {
+        display:initial !important;
+        color:#FFF;
+        font-size:30px;
+}
+
+    span#home-text {
+        display:none;
+    }
+
+    div.title-wrapper {
+        padding-right: 50px;
+    }
+    .extra-info-wrapper {
+        display: block;
+}
+}
+
+@media (max-width:455px) {
+    .extra-info-wrapper {
+        display: none;
+    }
+}
+
+/*Individual links*/
+a.dow-menu {
+    font-size: 14px;
+    padding:0 6px;
+    color:grey;
+}
