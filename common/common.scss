@@ -205,3 +205,20 @@ a.dow-menu {
 .extra-info-wrapper {
   display: none;
 }
+
+// Heavy customisation to container header
+.list-controls:after {
+    content: "Welcome to the LPMA Forums";
+    font-size: 21px;
+    margin-top: -120px;
+    position: absolute;
+}
+
+#create-topic {
+  margin-top: -133px;
+  margin-bottom: 10px;
+}
+
+.list-controls {
+  margin-top: 100px;
+}
