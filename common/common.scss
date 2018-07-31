@@ -84,8 +84,12 @@ body {
   margin: 0px -130px 0px 5px;
 }
 
+.d-header > .title {
+  margin-left: -60px;
+}
+
 span#top-navbar-links {
-  margin: 22px 0px 0px 230px !important;
+  margin: 22px 0px 0px 190px !important;
 }
 
 .nav-pills > li.active > a, .nav-pills > li > a.active {
