@@ -76,6 +76,22 @@ body {
   background: #FBFCFD;
 }
 
+#toggle-hamburger-menu {
+  display: none;
+}
+
+.d-header-icons {
+  margin: 0px -130px 0px 5px;
+}
+
+.title {
+  margin-left: -60px;
+}
+
+span#top-navbar-links {
+  margin: 22px 0px 0px 230px;
+}
+
 .nav-pills > li.active > a, .nav-pills > li > a.active {
   background-color: #64AE4A;
 }
