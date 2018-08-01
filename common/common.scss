@@ -120,14 +120,12 @@ span#top-navbar-links {
 }
 .nav-item {
   float:left;
-  *display:inline;
+  display:inline;
   zoom:1;
 }
 .nav-item a {
   display:block;
   padding:15px 20px;
-  color:#FFF;
-  background:#34495E;
 }
 .nav-item:first-child a {
   border-radius:5px 0 0 5px;
