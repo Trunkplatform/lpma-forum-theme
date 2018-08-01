@@ -125,20 +125,11 @@ span#top-navbar-links {
 }
 .nav-item a {
   display:block;
-  padding:15px 20px;
-}
-.nav-item:first-child a {
-  border-radius:5px 0 0 5px;
-}
-.nav-item:last-child a {
-  border-radius:0 5px 5px 0;
-}
-.nav-item a:hover {
-  background:#2C3E50;
+  padding:15px 20px !important;
 }
 
-a.dow-menu {
-  padding:20px;
+.nav-item a:hover {
+  background:#2C3E50;
 }
 
 
