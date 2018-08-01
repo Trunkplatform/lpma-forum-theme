@@ -96,16 +96,6 @@ span#top-navbar-links {
   background-color: #64AE4A;
 }
 
-@media screen and (max-width: 767px) {
-  .list-controls:after {
-    margin-top: -170px;
-  }
-
-  #create-topic {
-    margin-top: -49px;
-  }
-}
-
 // Article Page
 .topic-map {
   display: none;
@@ -260,4 +250,14 @@ a.dow-menu {
 
 .list-controls {
   margin-top: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .list-controls:after {
+    margin-top: -170px;
+  }
+
+  #create-topic {
+    margin-top: -49px;
+  }
 }
