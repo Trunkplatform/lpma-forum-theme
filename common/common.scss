@@ -259,6 +259,10 @@ a.dow-menu {
 }
 
 @media screen and (max-width: 767px) {
+  #main-outlet {
+    margin-top: 63px;
+  }
+
   .list-controls:after {
     margin-top: -170px;
   }
