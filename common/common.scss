@@ -76,10 +76,6 @@ body {
   background: #FBFCFD;
 }
 
-#toggle-hamburger-menu {
-  display: none;
-}
-
 .d-header-icons {
   margin: 0px -130px 0px 5px;
 }
@@ -99,50 +95,4 @@ span#top-navbar-links {
 // Article Page
 .topic-map {
   display: none;
-}
-
-// Navigation
-
-.nav {
-  position:relative;
-  display:inline-block;
-}
-
-#menu-icon {
-	display: hidden;
-	width: 40px;
-	height: 40px;
-	background: #4C8FEC url(../img/menu-icon.png) center;
-}
-
-a:hover#menu-icon {
-
-	background-color: #444;
-	border-radius: 4px 4px 0 0;
-
-}
-
-ul {
-	list-style: none;
-}
-
-li.nav-item {
-    float:left;
-    display:inline;
-    zoom:1;
-}
-
-li.nav-item a {
-  display:block;
-  padding:20px !important;
-}
-
-.current {
-	color: #2262AD;
-}
-
-section {
-	margin: 80px auto 40px;
-	position: relative;
-	padding: 20px
 }
