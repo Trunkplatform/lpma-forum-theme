@@ -1,0 +1,148 @@
+// Custom css
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #F3F5F6;
+}
+
+.wrap {
+    max-width: 758px;
+}
+
+#ember822, #ember825 {
+    display: none;
+}
+
+#main-outlet {
+    background-color: #fff;
+    padding: 24px;
+    margin-top: 120px;
+    box-shadow: 0px 0px 10px #CAD7DC;
+}
+
+#main {
+    overflow: hidden;
+}
+
+#create-topic {
+    background: linear-gradient(180deg, #70BF54 0%, #569A3E 100%);
+    border: 1px solid rgba(98, 168, 73, 0.4);
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 12px 24px;
+    color: #fff;
+}
+
+#create-topic:hover {
+    background: linear-gradient(180deg, #93E675 0%, #61AE46 100%);
+    border: 1px solid rgba(98, 168, 73, 0.4);
+}
+
+.d-editor-button-bar > button {
+    background: none;
+}
+
+.topic-footer-main-buttons > button, .widget-button, .select-kit-header {
+    background: none;
+    color: #595959;
+    border: 1px solid #cad7dc;
+}
+
+#ember1014 {
+    border: 1px solid #cad7dc;
+    border-radius: 100px;
+}
+
+.topic-list th, .topic-list td {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.category, .posters, .views, .activity {
+    display: none;
+}
+
+.list-controls::before {
+    content: "View posts by:";
+    display: block;
+    float: left;
+    padding: 5px 17px 0 0;
+}
+
+.topic-list-item:hover {
+  background: #FBFCFD;
+}
+
+#toggle-hamburger-menu {
+  display: none;
+}
+
+.d-header-icons {
+  margin: 0px -130px 0px 5px;
+}
+
+.d-header .title {
+  margin-left: -60px;
+}
+
+span#top-navbar-links {
+  margin: 22px 0px 0px 190px !important;
+}
+
+.nav-pills > li.active > a, .nav-pills > li > a.active {
+  background-color: #64AE4A;
+}
+
+// Article Page
+.topic-map {
+  display: none;
+}
+
+// Navigation
+
+.nav {
+  position:relative;
+  display:inline-block;
+}
+
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: #4C8FEC url(../img/menu-icon.png) center;
+}
+
+a:hover#menu-icon {
+
+	background-color: #444;
+	border-radius: 4px 4px 0 0;
+
+}
+
+ul {
+	list-style: none;
+}
+
+li.nav-item {
+    float:left;
+    display:inline;
+    zoom:1;
+}
+
+li.nav-item a {
+  display:block;
+  padding:20px !important;
+}
+
+.current {
+	color: #2262AD;
+}
+
+section {
+	margin: 80px auto 40px;
+	position: relative;
+	padding: 20px
+}
