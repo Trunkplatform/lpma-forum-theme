@@ -9,13 +9,12 @@
 </div>
 
 <script>
-if($('.widget-button').length > 0){
-    // Button exists
-    #top-navbar-links.style.margin = "22px 0 0 0";
+if(document.getElementById('.widget-button'))
+{
     console.log("Button exists")
+    #top-navbar-links.style.margin = "22px 0 0 0";
 } else {
-    // Button is not present in the DOM yet
-    #top-navbar-links.style.margin = "22px 0 0 80px";
-    console.log("Button does not exist")
+  #top-navbar-links.style.margin = "22px 0 0 80px";
+  console.log("Button does not exist")
 }
 </script>
