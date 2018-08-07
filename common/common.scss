@@ -61,10 +61,6 @@ body {
     padding-bottom: 30px;
 }
 
-.category, .posters, .views, .activity {
-    display: none;
-}
-
 .list-controls::before {
     content: "View posts by:";
     display: block;
