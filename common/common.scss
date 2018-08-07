@@ -261,9 +261,9 @@ span#top-navbar-links {
 
 /* Make green bar similar to Mezz*/
 #topic-title {  /*can do .list-controls as well*/
-  background-color: #2ecc71;
+  background-color: #fff;
   padding-top: 20px; /*get rid of whitespace*/
-  margin-top: -30px;
+  margin-top: -10px;
 }
 
 /*Individual links*/
@@ -286,7 +286,7 @@ html {
 #topic-title h1 a {
     font-size: 33px;
     font-weight:300;
-    color:white;
+    color:#000;
     padding-left:5px;
     line-height: 1.25em;
 }
