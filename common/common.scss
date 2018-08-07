@@ -96,3 +96,317 @@ span#top-navbar-links {
 .topic-map {
   display: none;
 }
+
+// Navigation
+.topic-list a.title:not(.badge-notification) {
+    font-family:"Open Sans";
+}
+
+.topic-list .badge-wrapper .badge-category {
+  padding: 0 10px 0 5px;
+}
+
+/*Reset washed out colors */
+.badge-category-bg {
+    opacity: 1;
+}
+
+/*Reset washed out colors */
+#topic-progress .bg {
+    background-color: #86ea86;
+}
+
+/*Youtube full width (from chapel/WYL)*/
+.lazyYT {
+    height: 0 !important;
+    width: 100% !important;
+    max-width: 674px;
+    padding-bottom: 56.25% !important;
+}
+
+
+
+
+/*Adding DOW links to top - link text section*/
+span#top-navbar-links {
+    display:block !important;
+    margin:22px 0 0 0;
+}
+
+
+/*Start dropping DOW Menu links & shortening title on small windows*/
+
+.extra-info-wrapper .topic-link {
+    max-width:600px;
+}
+
+@media (min-width: 1150px) {
+    .extra-info-wrapper .topic-link {
+        max-width:600px;
+         padding-right:250px;
+    }
+}
+
+@media (max-width: 1149px) {
+    div.title-wrapper {
+         padding-right:280px;
+    }
+}
+
+@media (min-width: 999px) {
+    /*Adding DOW links to top - link container */
+    div#top-navbar {
+        max-width:none; /*remove max width*/
+        width: auto; /*prevent other widths taking over*/
+        z-index: 1040; /*stays on top of other header*/
+        /*position:relative;
+        float:left;*/
+        position:fixed;
+        top:0;
+        left: 58%;
+    }
+}
+
+@media (max-width: 998px) {  /*jumpover point, attach to right side*/
+
+    div.title-wrapper {
+        padding-right:220px;
+    }
+
+   /*Adding DOW links to top - link text section*/
+span#top-navbar-links {
+  position: fixed;
+  top: 0;
+  margin:22px 0px 0px -385px;
+    }
+
+    div#top-navbar {
+    max-width:none; /*remove max width*/
+    width: auto; /*prevent other widths taking over*/
+    z-index: 1040; /*stays on top of other header*/
+    float:right;
+    position:relative;
+    }
+}
+
+@media (max-width: 900px) {  /*jumpover point*/
+/*div#top-navbar {
+    left: 50%;
+}*/
+    div.title-wrapper {
+        padding-right:220px;
+    }
+}
+
+@media (max-width: 725px) {
+    a.dow-menu#library {
+        display:none;
+}
+    div.title-wrapper {
+        padding-right:135px;
+    }
+    span#top-navbar-links {
+        margin-left:-290px;
+    }
+}
+
+@media (min-width: 571px) {
+   i.fa.fa-home:before {
+       display:none;
+   }
+}
+
+@media (max-width: 570px) {
+    a.dow-menu#store {
+        display:none;
+    }
+    span#top-navbar-links {
+        margin:19px 0 0 -220px;
+    }
+
+    i.fa.fa-home:before {
+        display:initial !important;
+        color:#FFF;
+        font-size:30px;
+}
+
+    span#home-text {
+        display:none;
+    }
+
+    div.title-wrapper {
+        padding-right: 50px;
+    }
+    .extra-info-wrapper {
+        display: block;
+}
+}
+
+@media (max-width:455px) {
+    .extra-info-wrapper {
+        display: none;
+    }
+}
+
+/* Make green bar similar to Mezz*/
+#topic-title {  /*can do .list-controls as well*/
+  background-color: #2ecc71;
+  padding-top: 20px; /*get rid of whitespace*/
+  margin-top: -30px;
+}
+
+/*Individual links*/
+a.dow-menu {
+    font-size: 14px;
+    padding:0 13px;
+    color:white;
+}
+
+/*header shadow*/
+.d-header {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+    font-weight:normal;
+}
+
+#topic-title h1 a {
+    font-size: 33px;
+    font-weight:300;
+    color:white;
+    padding-left:5px;
+    line-height: 1.25em;
+}
+
+/*Space between Youtube vids and pictures*/
+
+.lazyYT-container, .lightbox-wrapper, p img {
+    margin:10px 0;
+}
+
+.extra-info.two-rows h1 {
+line-height: 1.25em;
+font-weight:normal;
+}
+
+/*Copying bottom, footer and some CSS from Mezzanine*/
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+section#bottom .container {
+  max-width: 750px;
+ }
+}
+
+@media (min-width: 992px) {
+section#bottom .container {
+  max-width: 970px;
+ }
+}
+
+@media (min-width: 1200px) {
+section#bottom .container {
+  max-width: 1170px;
+ }
+}
+section#bottom {
+    padding-bottom:20px;
+    color:#bdc3c7;
+}
+
+#bottom h4 {
+  margin-top: 38px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 18px;
+  color:#FFF;
+}
+
+.wet-asphalt {
+    background-color:#34495e;
+}
+
+.wet-asphalt a:not(.btn) {
+  color: #bdc3c7;
+}
+
+.midnight-blue {
+    background-color: #2c3e50;
+}
+
+#footer {
+    padding: 30px 0 40px 0;
+    color: #bdc3c7;
+}
+
+#footer a {
+  color: #bdc3c7;
+}
+
+
+@media (min-width: 768px) {
+.col-sm-6 {
+  width: 50%;
+  float:left;
+  padding:0 15px;
+ }
+}
+
+@media (min-width: 992px) {
+.col-md-3 {
+  width: 25%;
+ }
+}
+
+address {
+    font-style:normal;
+}
+
+.d-header button.sign-up-button {
+  display: none;
+}
+
+#user-card .card-content {
+  background: rgba(34,34,34,0.70);
+}
+
+.d-header .valign-helper {
+    display: block;
+}
+
+#topic-progress {
+    background-color: #EEE;
+    //border: 1px solid #e2e2e2;
+    color: #444;
+    font-weight: normal;
+
+    .bg {
+       background-color: #81FC97;
+    }
+}
+
+/*Prevent long username breaking topic list*/
+.poster-info {
+  max-width: 80px;
+}
+
+/*enlarge and center user icon top right */
+a#current-user {
+  margin-top: -3px;
+}
+li.current-user.dropdown img.avatar {
+    width:40px !important;
+    height:40px !important;
+}
+
+img.avatar {
+  border-radius: 50%;
+}

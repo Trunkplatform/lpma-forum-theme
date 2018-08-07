@@ -1,0 +1,146 @@
+html {
+    font-family: "Open Sans", sans-serif;
+    font-weight:normal;
+}
+
+/*Space between Youtube vids and pictures*/
+
+.lazyYT-container, .lightbox-wrapper, p img {
+    margin:10px 0;
+}
+
+
+/*Adding DOW links to top - link text section*/
+span#top-navbar-links {
+   position: fixed;
+  top: 0;
+  margin:15px 0px 0px -195px;
+
+}
+
+.fa-home:before {
+  color:#FFF;
+  font-size:30px;
+}
+
+/*Adding DOW links to top - link container */
+div#top-navbar {
+    max-width:none; /*remove max width*/
+    width: auto; /*prevent other widths taking over*/
+    z-index: 1040; /*stays on top of other header*/
+    float:right;
+    position:relative;
+}
+
+/*Copying bottom, footer and some CSS from Mezzanine*/
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+section#bottom .container {
+  max-width: 750px;
+ }
+}
+
+@media (min-width: 992px) {
+section#bottom .container {
+  max-width: 970px;
+ }
+}
+
+@media (min-width: 1200px) {
+section#bottom .container {
+  max-width: 1170px;
+ }
+}
+section#bottom {
+     padding-bottom:20px;
+    color:#bdc3c7;
+}
+
+#bottom h4 {
+  margin-top: 38px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 18px;
+  color:#FFF;
+}
+
+.wet-asphalt {
+    background-color:#34495e;
+}
+
+.wet-asphalt a:not(.btn) {
+  color: #bdc3c7;
+}
+
+.midnight-blue {
+    background-color: #2c3e50;
+}
+
+#footer {
+    padding: 30px 0 40px 0;
+    color: #bdc3c7;
+}
+
+#footer a {
+  color: #bdc3c7;
+}
+
+
+@media (min-width: 768px) {
+.col-sm-6 {
+  width: 50%;
+  float:left;
+  padding:0 15px;
+ }
+}
+
+@media (min-width: 992px) {
+.col-md-3 {
+  width: 25%;
+ }
+}
+
+address {
+    font-style:normal;
+}
+
+#topic-progress {
+    background-color: #EEE;
+    //border: 1px solid #e2e2e2;
+    color: #444;
+    font-weight: normal;
+
+    .bg {
+       background-color: #81FC97;
+    }
+}
+
+//Hide sort categories mobile
+
+@media (max-width: 610px) {
+    #ember1654, #ember1754{  //hide categories
+    display:none;
+}
+}
+@media (max-width: 502px) {
+    #ember1653{  //hide top
+    display:none;
+}
+}
+@media (max-width: 444px) {
+    #ember1651{  //hide new
+    display:none;
+}
+}
+@media (max-width: 385px) {
+#ember1625 { //hide all categories
+    display:none;
+}
+}
