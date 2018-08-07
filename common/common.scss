@@ -85,7 +85,7 @@ body {
 }
 
 span#top-navbar-links {
-  margin: 22px 0px 0px 190px !important;
+  margin: 22px 0px 0px 0px;
 }
 
 .nav-pills > li.active > a, .nav-pills > li > a.active {
@@ -259,7 +259,7 @@ span#top-navbar-links {
 a.dow-menu {
     font-size: 14px;
     padding:0 13px;
-    color:white;
+    color:#000;
 }
 
 /*header shadow*/
