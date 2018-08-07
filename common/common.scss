@@ -84,6 +84,17 @@ body {
   margin-left: -60px;
 }
 
+@media screen and (max-width: 768px) {
+  .d-header .title {
+    margin-left: 0px;
+  }
+
+  .d-header-icons {
+    margin: 0px 0px 0px 5px;
+  }
+}
+
+
 span#top-navbar-links {
   margin: 22px 0px 0px 0px;
 }
