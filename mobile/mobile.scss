@@ -127,24 +127,23 @@ address {
 @media (max-width: 610px) {
     #ember1654, #ember1754{  //hide categories
     display:none;
-}
+  }
 }
 @media (max-width: 502px) {
     #ember1653{  //hide top
     display:none;
-}
+  }
 }
 @media (max-width: 444px) {
     #ember1651{  //hide new
     display:none;
-}
+  }
 }
 @media (max-width: 385px) {
 #ember1625 { //hide all categories
     display:none;
+  }
 }
-}
-
 
 @media screen and (max-width: 768px) {
   .d-header .title {
