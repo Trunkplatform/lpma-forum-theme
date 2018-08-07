@@ -421,3 +421,9 @@ li.current-user.dropdown img.avatar {
 img.avatar {
   border-radius: 50%;
 }
+
+
+// Add signup button
+.login-button::after {
+    content: " | Sign up";
+}
