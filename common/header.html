@@ -10,15 +10,15 @@
 </div>
 
 <script>
+    function setElementCss(id, property, value) {
+      document.getElementById(id).style[property] = value;
+    }
     function detectButtons() {
         var buttons = document.getElementsByClassName("header-buttons");
         if (buttons.length > 0) {
             var loginButtons = document.getElementsByClassName("login-button");
-            if (loginButtons.length > 0) {
-                console.log("Button exists");
-            }
-            else {
-                console.log("Button does not exist");
+            if (loginButtons.length === 0) {
+                setElementCss("top-navbar", "left", "47%")
             }
         }
         else {
