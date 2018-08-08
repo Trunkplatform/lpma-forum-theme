@@ -9,11 +9,12 @@
 </div>
 
 <script>
-  var element = document.getElementsByClassName("login-button");
-  if (element.length > 0)
-  {
-      console.log("Button exists")
-  } else {
-      console.log("Button does not exist")
+  var elements = document.getElementsByClassName("login-button");
+  console.log(elements);
+  if (elements.length === 0) {
+    console.log("Button does not exist");
+  }
+  else {
+    console.log("Button exists");
   }
 </script>
