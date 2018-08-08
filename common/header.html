@@ -10,13 +10,15 @@
 </div>
 
 <script>
-    var elements = document.getElementsByClassName("login-button");
-    console.log(elements);
-    console.log(elements.length);
-    if (elements.length > 0) {
-        console.log("Button exists");
-    }
-    else {
-        console.log("Button does not exist");
+    document.addEventListener("DOMContentLoaded", function(e) {
+      var elements = document.getElementsByClassName("login-button");
+      console.log(elements);
+      console.log(elements.length);
+      if (elements.length > 0) {
+          console.log("Button exists");
+      }
+      else {
+          console.log("Button does not exist");
+      }
     }
 </script>
