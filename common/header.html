@@ -9,7 +9,8 @@
 </div>
 
 <script>
-  if(!!document.getElementsByClassName("login-button"))
+  var element = document.getElementsByClassName("login-button");
+  if (typeof(element) != 'undefined' && element != null)
   {
       console.log("Button exists")
   } else {
