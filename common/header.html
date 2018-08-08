@@ -1,4 +1,4 @@
-<div id="top-navbar" class="container">
+<div id="top-navbar" class="container" hidden>
     <span id="top-navbar-links" style="display:none;">
         <a href="#" class="dow-menu" id="home" />
         <span id="home-text">Home</span>
@@ -10,16 +10,15 @@
 </div>
 
 <script>
-    function setElementCss(id, property, value) {
-      document.getElementById(id).style[property] = value;
-    }
     function detectButtons() {
         var buttons = document.getElementsByClassName("header-buttons");
         if (buttons.length > 0) {
             var loginButtons = document.getElementsByClassName("login-button");
             if (loginButtons.length === 0) {
-                setElementCss("top-navbar", "left", "47%")
+                var topNavbar = document.getElementById("top-navbar");
+                topNavbar.style.left = "47%"
             }
+            topNavbar.hidden = false;
         }
         else {
             setTimeout(detectButtons, 50)
