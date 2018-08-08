@@ -1,20 +1,22 @@
 <div id="top-navbar" class="container">
-<span id="top-navbar-links" style="display:none;">
-  <a href="#" class="dow-menu" id="home"><span id="home-text">Home</span>
-  <a href="#" class="dow-menu" id="store">Resources</a>
-  <a href="#" class="dow-menu" id="library">Community</a>
-  <a href="#" class="dow-menu" id="library">Foundry</a>
-  <a href="#" class="dow-menu" id="library">Events</a>
-</span>
+    <span id="top-navbar-links" style="display:none;">
+        <a href="#" class="dow-menu" id="home" />
+        <span id="home-text">Home</span>
+        <a href="#" class="dow-menu" id="store">Resources</a>
+        <a href="#" class="dow-menu" id="library">Community</a>
+        <a href="#" class="dow-menu" id="library">Foundry</a>
+        <a href="#" class="dow-menu" id="library">Events</a>
+    </span>
 </div>
 
 <script>
-  var elements = document.getElementsByClassName("login-button");
-  console.log(elements);
-  if (elements.length === 0) {
-    console.log("Button does not exist");
-  }
-  else {
-    console.log("Button exists");
-  }
+    var elements = document.getElementsByClassName("login-button");
+    console.log(elements);
+    console.log(elements.length);
+    if (elements.length > 0) {
+        console.log("Button exists");
+    }
+    else {
+        console.log("Button does not exist");
+    }
 </script>
