@@ -8,3 +8,17 @@
         <a href="#" class="dow-menu" id="library">Events</a>
     </span>
 </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(e) {
+      var elements = document.getElementsByClassName("header-buttons");
+      console.log(elements);
+      console.log(elements.length);
+      if (elements.length > 0) {
+          console.log("Button exists");
+      }
+      else {
+          console.log("Button does not exist");
+      }
+    })
+</script>
