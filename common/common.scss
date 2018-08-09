@@ -107,6 +107,11 @@ span#top-navbar-links {
   background-color: #64AE4A;
 }
 
+.nav-pills > li.active > a:hover {
+  background-color: #d0f5db;
+  color: #4ead5b;
+}
+
 // Article Page
 .topic-map {
   display: none;
