@@ -431,3 +431,8 @@ img.avatar {
 .login-button::after {
     content: " | Sign up";
 }
+
+// Change badge to rounded
+.badge-category-bg {
+  border-radius: 100px;
+}
