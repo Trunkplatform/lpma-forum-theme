@@ -442,7 +442,7 @@ img.avatar {
   border-radius: 100px;
 }
 
-ul#navigation-bar > li:before {
+ul#navigation-bar > li:first-child:before {
     content: "|";
     position: absolute;
     margin-left: -9px;
