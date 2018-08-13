@@ -441,3 +441,13 @@ img.avatar {
 .badge-category-bg {
   border-radius: 100px;
 }
+
+ul#navigation-bar > li:before {
+    content: "|";
+    position: absolute;
+    margin-left: -9px;
+    font-size: 21px;
+    padding: 0px;
+    font-weight: 100;
+    color: #cad7dc;
+}
