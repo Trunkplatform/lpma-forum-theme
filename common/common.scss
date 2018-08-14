@@ -170,7 +170,7 @@ span#top-navbar-links {
 }
 
 
-@media (min-width: 1500px) {
+@media screen and (max-width: 1500px) {
     /*Adding DOW links to top - link container */
     div#top-navbar {
         max-width:none; /*remove max width*/
@@ -184,7 +184,7 @@ span#top-navbar-links {
     }
 }
 
-@media (min-width: 1200px) {
+@media screen and (max-width: 1200px) {
     /*Adding DOW links to top - link container */
     div#top-navbar {
         max-width:none; /*remove max width*/
@@ -199,7 +199,7 @@ span#top-navbar-links {
 }
 
 
-@media (min-width: 1023px) {
+@media screen and (max-width: 1023px) {
     /*Adding DOW links to top - link container */
     div#top-navbar {
         max-width:none; /*remove max width*/
@@ -213,7 +213,7 @@ span#top-navbar-links {
     }
 }
 
-@media (min-width: 999px) {
+@media screen and (max-width: 999px) {
     /*Adding DOW links to top - link container */
     div#top-navbar {
         max-width:none; /*remove max width*/
