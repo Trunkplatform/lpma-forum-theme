@@ -169,7 +169,7 @@ span#top-navbar-links {
     }
 }
 
-@media screen and (max-width: 2700px) {
+@media screen and (min-width: 1501px) {
     /*Adding DOW links to top - link container */
     div#top-navbar {
         max-width:none; /*remove max width*/
