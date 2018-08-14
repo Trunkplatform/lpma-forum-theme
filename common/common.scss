@@ -459,9 +459,24 @@ ul#navigation-bar > li:first-child:before {
       padding-top: 40px;
   }
 
+  ul#navigation-bar {
+    border-top: 1px solid #cad7dc;
+    padding-top: 10px;
+    margin-top: 4px;
+    width: 105%;
+    margin-left: -14px;
+    border-bottom: 1px solid #cad7dc;
+    padding-bottom: 10px;
+  }
+
   ul#navigation-bar > li:first-child:before {
       content: none;
   }
+
+  #create-topic {
+    margin-top: -123px;
+  }
+
 
   .d-header {
     box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
