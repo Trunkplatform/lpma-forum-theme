@@ -228,6 +228,14 @@ span#top-navbar-links {
     }
 }
 
+@media (max-width: 850px) {
+  div#top-navbar {
+    margin-right: 70px;
+  }
+}
+
+
+
 @media (max-width: 725px) {
     a.dow-menu#library {
         display:none;
