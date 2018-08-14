@@ -23,22 +23,6 @@ body {
     box-shadow: 0px 0px 10px #CAD7DC;
 }
 
-@media screen and (max-width: 768px) {
-  #main-outlet {
-      margin-top: 62px;
-      padding: 0px;
-      padding-top: 40px;
-  }
-
-  ul#navigation-bar > li:first-child:before {
-      content:none;
-  }
-
-  .d-header {
-    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
-  }
-}
-
 #main {
     overflow: hidden;
 }
@@ -466,4 +450,20 @@ ul#navigation-bar > li:first-child:before {
     padding: 0px;
     font-weight: 100;
     color: #cad7dc;
+}
+
+@media screen and (max-width: 768px) {
+  #main-outlet {
+      margin-top: 62px;
+      padding: 0px;
+      padding-top: 40px;
+  }
+
+  ul#navigation-bar > li:first-child:before {
+      content: none;
+  }
+
+  .d-header {
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+  }
 }
