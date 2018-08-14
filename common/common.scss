@@ -202,7 +202,7 @@ span#top-navbar-links {
 
     div#top-navbar {
     max-width:none; /*remove max width*/
-    width: auto; /*prevent other widths taking over*/
+    width: 120px; /*prevent other widths taking over*/
     z-index: 1040; /*stays on top of other header*/
     float:right;
     position:relative;
@@ -486,3 +486,12 @@ ul#navigation-bar > li:first-child:before {
     box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
   }
 }
+
+
+// Nav media queries
+
+@media screen and (max-width: 1023px) {
+  #top-navbar {
+    left: initial;
+
+  }
