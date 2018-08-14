@@ -206,7 +206,7 @@ span#top-navbar-links {
     z-index: 1040; /*stays on top of other header*/
     float:right;
     position:relative;
-    left: initial;
+    left: initial !important;
     margin-right: 20px;
     }
 }
