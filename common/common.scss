@@ -209,6 +209,14 @@ span#top-navbar-links {
     left: initial !important;
     margin-right: 20px;
     }
+
+    .d-header .title {
+      margin-left: 0px;
+    }
+
+    .d-header-icons {
+      margin: 0px 0px 0px 5px;
+    }
 }
 
 @media (max-width: 900px) {  /*jumpover point*/
