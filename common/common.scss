@@ -234,6 +234,18 @@ span#top-navbar-links {
   }
 }
 
+@media (max-width: 800px) {
+  div#top-navbar {
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  div#top-navbar {
+    display: none;
+  }
+}
+
 
 
 @media (max-width: 725px) {
