@@ -15,12 +15,14 @@
 
 <script>
     function detectButtons() {
+        var createTopic = document.getElementById('create-topic-header');
+
         var buttons = document.getElementsByClassName("header-buttons");
         if (buttons.length > 0) {
             var loginButtons = document.getElementsByClassName("login-button");
             var topNavbar = document.getElementById("top-navbar");
             if (loginButtons.length === 0) {
-                // topNavbar.style.left = "47%"
+                link.style.display = 'none';
             }
             topNavbar.hidden = false;
         }
