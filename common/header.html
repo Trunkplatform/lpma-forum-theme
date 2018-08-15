@@ -22,9 +22,10 @@
             var loginButtons = document.getElementsByClassName("login-button");
             var topNavbar = document.getElementById("top-navbar");
             if (loginButtons.length === 0) {
-                createTopic.style.display = 'none';
+                // createTopic.style.display = 'none';
             }
             topNavbar.hidden = false;
+            createTopic.style.display = 'none';
         }
         else {
             setTimeout(detectButtons, 50)
