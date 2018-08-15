@@ -282,19 +282,20 @@ span#top-navbar-links {
     }
 
     div#top-navbar {
-    left: 2% !important;
+      left: 2% !important;
   }
 }
 
 @media (max-width: 850px) {
-  div#top-navbar {
-    margin-right: 130px;
+    div#top-navbar {
+      left: 2% !important;
   }
+
 }
 
 @media (max-width: 800px) {
   div#top-navbar {
-    margin-right: 110px;
+    left: 2% !important;
   }
 }
 
