@@ -179,7 +179,7 @@ span#top-navbar-links {
         float:left;*/
         position:fixed;
         top:0;
-        left: 41% !important;
+        left: 46% !important;
     }
 }
 
@@ -194,7 +194,7 @@ span#top-navbar-links {
         float:left;*/
         position:fixed;
         top:0;
-        left: 41% !important;
+        left: 43% !important;
     }
 }
 
@@ -208,7 +208,7 @@ span#top-navbar-links {
         float:left;*/
         position:fixed;
         top:0;
-        left: 39% !important;
+        left: 43% !important;
     }
 }
 
@@ -223,7 +223,7 @@ span#top-navbar-links {
         float:left;*/
         position:fixed;
         top:0;
-        left: 36% !important;
+        left: 40% !important;
     }
 }
 
@@ -237,7 +237,7 @@ span#top-navbar-links {
         float:left;*/
         position:fixed;
         top:0;
-        left: 34% !important;
+        left: 42% !important;
     }
 }
 
@@ -260,7 +260,7 @@ span#top-navbar-links {
     z-index: 1040; /*stays on top of other header*/
     float:right;
     position:relative;
-    left: -2% !important;
+    left: 2% !important;
     margin-right: 200px;
     }
 
@@ -280,6 +280,10 @@ span#top-navbar-links {
     div.title-wrapper {
         padding-right:220px;
     }
+
+    div#top-navbar {
+    left: 10% !important;
+  }
 }
 
 @media (max-width: 850px) {
