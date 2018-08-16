@@ -169,7 +169,7 @@ span#top-navbar-links {
     }
 }
 
-@media screen and (min-width: 1501px) {
+@media screen and (max-width: 2000px) {
     /*Adding DOW links to top - link container */
     div#top-navbar {
         max-width:none; /*remove max width*/
@@ -179,7 +179,21 @@ span#top-navbar-links {
         float:left;*/
         position:fixed;
         top:0;
-        left: 39%;
+        left: 38%;
+    }
+}
+
+@media screen and (max-width: 1750px) {
+    /*Adding DOW links to top - link container */
+    div#top-navbar {
+        max-width:none; /*remove max width*/
+        width: auto; /*prevent other widths taking over*/
+        z-index: 1040; /*stays on top of other header*/
+        /*position:relative;
+        float:left;*/
+        position:fixed;
+        top:0;
+        left: 38%;
     }
 }
 
