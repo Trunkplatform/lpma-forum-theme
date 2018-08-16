@@ -20,10 +20,10 @@
             var createTopic = document.getElementById('create-topic-header');
             var loginButtons = document.getElementsByClassName("login-button");
             if (loginButtons.length === 0) {
-              createTopic.style.background = 'red';
+              createTopic.style.display = 'block';
             }
             else {
-              createTopic.style.background = 'green';
+              createTopic.style.display = 'none';
             }
             //show everything
             var topNavbar = document.getElementById("top-navbar");
