@@ -21,10 +21,10 @@
             var loginButtons = document.getElementsByClassName("login-button");
             var topNavbar = document.getElementById("top-navbar");
             if (loginButtons.length === 0) {
-              createTopic.style.display = 'block';
+              createTopic.style.background = 'red';
             }
             topNavbar.hidden = false;
-            createTopic.style.display = 'none';
+            createTopic.style.background = 'green';
         }
         else {
             setTimeout(detectButtons, 50)
