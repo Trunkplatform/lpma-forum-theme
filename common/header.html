@@ -16,6 +16,7 @@
 <script>
     function detectButtons() {
         var buttons = document.getElementsByClassName("header-buttons");
+        var loggedOutList = document.getElementsByClassName("d-header-icons");
         if (buttons.length > 0) {
             var createTopic = document.getElementById('create-topic-header');
             var loginButtons = document.getElementsByClassName("login-button");
@@ -24,6 +25,7 @@
             }
             else {
               createTopic.style.display = 'none';
+              loggedOutList.style.margin = "0px -80px 0px 5px";
             }
             //show everything
             var topNavbar = document.getElementById("top-navbar");
