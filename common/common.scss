@@ -193,12 +193,11 @@ span#top-navbar-links {
         float:left;*/
         position:fixed;
         top:0;
-        left: 38%;
+        left: 37%;
     }
 }
 
-
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1600px) {
     /*Adding DOW links to top - link container */
     div#top-navbar {
         max-width:none; /*remove max width*/
@@ -208,7 +207,36 @@ span#top-navbar-links {
         float:left;*/
         position:fixed;
         top:0;
-        left: 39%;
+        left: 37%;
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+    /*Adding DOW links to top - link container */
+    div#top-navbar {
+        max-width:none; /*remove max width*/
+        width: auto; /*prevent other widths taking over*/
+        z-index: 1040; /*stays on top of other header*/
+        /*position:relative;
+        float:left;*/
+        position:fixed;
+        top:0;
+        left: 35%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    /*Adding DOW links to top - link container */
+    div#top-navbar {
+        max-width:none; /*remove max width*/
+        width: auto; /*prevent other widths taking over*/
+        z-index: 1040; /*stays on top of other header*/
+        /*position:relative;
+        float:left;*/
+        position:fixed;
+        top:0;
+        left: 34%;
     }
 }
 
@@ -222,7 +250,21 @@ span#top-navbar-links {
         float:left;*/
         position:fixed;
         top:0;
-        left: 37%;
+        left: 33%;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    /*Adding DOW links to top - link container */
+    div#top-navbar {
+        max-width:none; /*remove max width*/
+        width: auto; /*prevent other widths taking over*/
+        z-index: 1040; /*stays on top of other header*/
+        /*position:relative;
+        float:left;*/
+        position:fixed;
+        top:0;
+        left: 32%;
     }
 }
 
