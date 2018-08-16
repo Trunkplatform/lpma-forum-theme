@@ -15,16 +15,19 @@
 
 <script>
     function detectButtons() {
-        var createTopic = document.getElementById('create-topic-header');
         var buttons = document.getElementsByClassName("header-buttons");
         if (buttons.length > 0) {
+            var createTopic = document.getElementById('create-topic-header');
             var loginButtons = document.getElementsByClassName("login-button");
-            var topNavbar = document.getElementById("top-navbar");
             if (loginButtons.length === 0) {
               createTopic.style.background = 'red';
             }
+            else {
+              createTopic.style.background = 'green';
+            }
+            //show everything
+            var topNavbar = document.getElementById("top-navbar");
             topNavbar.hidden = false;
-            createTopic.style.background = 'green';
         }
         else {
             setTimeout(detectButtons, 50)
