@@ -654,3 +654,9 @@ ul#navigation-bar > li:first-child:before {
 .creator a:nth-child(2) {
   display: none;
 }
+
+.date-time span{display:none;}
+
+.username a, .editor a {
+  display: none;
+}
