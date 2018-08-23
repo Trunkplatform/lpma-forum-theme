@@ -645,6 +645,11 @@ ul#navigation-bar > li:first-child:before {
 
 #create-topic-header {
   padding: 4px 16px;
+  background: linear-gradient(180deg, #70BF54 0%, #569A3E 100%);
+  border: 1px solid rgba(98, 168, 73, 0.4);
+  box-sizing: border-box;
+  border-radius: 50px;
+  color: #fff;
 }
 
 .d-header {
