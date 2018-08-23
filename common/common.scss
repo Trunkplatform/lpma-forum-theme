@@ -23,16 +23,6 @@ body {
     overflow: hidden;
 }
 
-#create-topic {
-    // background: linear-gradient(180deg, #70BF54 0%, #569A3E 100%);
-    // border: 1px solid rgba(98, 168, 73, 0.4);
-    // box-sizing: border-box;
-    // border-radius: 50px;
-    // padding: 12px 24px;
-    // color: #fff;
-    display: none;
-}
-
 #create-topic:hover {
     background: linear-gradient(180deg, #93E675 0%, #61AE46 100%);
     border: 1px solid rgba(98, 168, 73, 0.4);
@@ -644,7 +634,7 @@ ul#navigation-bar > li:first-child:before {
   display: none;
 }
 
-#create-topic-header {
+#create-topic {
   padding: 4px 16px;
   background: linear-gradient(180deg, #70BF54 0%, #569A3E 100%);
   border: 1px solid rgba(98, 168, 73, 0.4);
