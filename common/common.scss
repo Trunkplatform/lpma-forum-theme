@@ -631,15 +631,11 @@ ul#navigation-bar > li:first-child:before {
   position: fixed;
 }
 
-// .creator a:nth-child(2) {
-//   display: none;
-// }
+
 
 .date-time span{display:none;}
 
-.username a, .editor a {
-  display: none;
-}
+
 
 
 // Style button
@@ -656,3 +652,12 @@ ul#navigation-bar > li:first-child:before {
 button#create-topic {
   display: none !important;
 }
+
+// Hide creator on home page
+.creator a:nth-child(2) {
+  display: none;
+}
+
+// .username a, .editor a {
+//   display: none;
+// }
