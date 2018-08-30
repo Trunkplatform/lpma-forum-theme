@@ -653,6 +653,6 @@ ul#navigation-bar > li:first-child:before {
 }
 
 // Remove built-in create topic button
-#create-topic {
-  display: none;
+button#create-topic {
+  display: none !important;
 }
