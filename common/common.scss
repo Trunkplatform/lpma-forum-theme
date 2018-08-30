@@ -654,10 +654,10 @@ button#create-topic {
 }
 
 // Hide creator on home page
-.creator a:nth-child(2) {
+.last-post .poster-info .editor a {
   display: none;
 }
 
-// .username a, .editor a {
-//   display: none;
-// }
+.topic-list tbody tr td .creator a:nth-child(2) {
+  display: none;
+}
