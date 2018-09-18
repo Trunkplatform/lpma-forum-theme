@@ -12,14 +12,14 @@
 <script>
     function detectButtons() {
         var buttons = document.getElementsByClassName("header-buttons");
-        var signupButton = document.getElementsByClassName("signup-btn");
         if (buttons.length > 0) {
             var createTopic = document.getElementById('new-create-topic');
             var loginButtons = document.getElementsByClassName("login-button");
+            var signupButton = document.getElementsByClassName("signup-btn");
             if (loginButtons.length === 0) {
               //logged in
               createTopic.style.display = 'inline-block';
-              signupButton.style.display = 'none';
+              signupButton.style.color = 'red';
             }
             else {
               //logged out
