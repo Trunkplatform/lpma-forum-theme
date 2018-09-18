@@ -5,6 +5,7 @@
         <a target="_blank" href="https://community.lpma.com" class="dow-menu" id="community">Community</a>
         <a target="_blank" href="https://lpma.com/foundry" class="dow-menu" id="foundry">Foundry</a>
         <a target="_blank" href="https://lpma.com/events" class="dow-menu" id="events">Events</a>
+        <a target="_blank" href="https://dev.lpma.com/signup/membership-or-forum/" class="header-signup" id="signup">Sign up</a>
     </span>
 </div>
 
@@ -14,8 +15,15 @@
         if (buttons.length > 0) {
             var createTopic = document.getElementById('new-create-topic');
             var loginButtons = document.getElementsByClassName("login-button");
+            var signupButton = document.getElementsByClassName("header-signup");
             if (loginButtons.length === 0) {
+              //logged in
               createTopic.style.display = 'inline-block';
+              signupButton.style.display = 'none'
+            }
+            else {
+              //logged out
+              signupButton.style.display = 'inline-block'
             }
             //show everything
             var topNavbar = document.getElementById("top-navbar");
