@@ -14,16 +14,19 @@
         var buttons = document.getElementsByClassName("header-buttons");
         if (buttons.length > 0) {
             var createTopic = document.getElementById('new-create-topic');
+            var topNavbarLinks = document.getElementById('top-navbar-links');
             var loginButtons = document.getElementsByClassName("login-button");
             var signupButton = document.getElementById('signup');
             if (loginButtons.length === 0) {
               //logged in
               createTopic.style.display = 'inline-block';
               signupButton.style.display = 'none';
+              topNavbarLinks.style.marginTop = "22px";
             }
             else {
               //logged out
               signupButton.style.display = 'inline-block';
+              topNavbarLinks.style.marginTop = "18px";
             }
             //show everything
             var topNavbar = document.getElementById("top-navbar");
