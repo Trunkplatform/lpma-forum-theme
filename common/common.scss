@@ -331,7 +331,7 @@ span#top-navbar-links {
         padding-right:220px;
     }
 
-    div#top-navbar-links {
+    span#top-navbar-links {
       display: none;
   }
 }
@@ -350,7 +350,7 @@ span#top-navbar-links {
 }
 
 @media (max-width: 767px) {
-  div#top-navbar-links {
+  span#top-navbar-links {
     display: none;
   }
 }
