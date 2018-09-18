@@ -84,6 +84,14 @@ body {
 
 span#top-navbar-links {
   margin: 18px 0px 0px 0px;
+  float: left;
+  display: inline;
+}
+
+span#signup-button-container {
+  float: left;
+  display: inline;
+  margin-top: 18px;
 }
 
 .nav-pills > li.active > a, .nav-pills > li > a.active {
