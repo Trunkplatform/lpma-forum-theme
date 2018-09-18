@@ -454,6 +454,12 @@ span#top-navbar-links {
     }
 }
 
+@media (min-width: 530px) {
+  .signup-btn {
+    margin-left: 190px;
+  }
+}
+
 @media (max-width:455px) {
     .extra-info-wrapper {
         display: none;
