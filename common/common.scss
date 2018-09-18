@@ -381,12 +381,36 @@ span#top-navbar-links {
 @media (max-width: 725px) {
     a.dow-menu#library {
         display:none;
-}
+    }
     div.title-wrapper {
         padding-right:135px;
     }
     span#top-navbar-links {
         margin-left:-290px;
+    }
+
+    .signup-btn {
+      margin-left: 385px;
+    }
+
+}
+
+@media (max-width: 690px) {
+    .signup-btn {
+      margin-left: 365px;
+    }
+}
+
+@media (max-width: 650px) {
+    .signup-btn {
+      margin-left: 335px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .signup-btn {
+      margin-left: 300px;
     }
 }
 
@@ -419,7 +443,11 @@ span#top-navbar-links {
     }
     .extra-info-wrapper {
         display: block;
-}
+    }
+
+    .signup-btn {
+      margin-left: 250px;
+    }
 }
 
 @media (max-width:455px) {
