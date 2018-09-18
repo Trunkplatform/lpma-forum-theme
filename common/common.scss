@@ -350,7 +350,7 @@ span#top-navbar-links {
     }
 
     .signup-btn {
-      margin-left: 497px;
+      margin-left: 460px;
     }
 }
 
@@ -358,11 +358,21 @@ span#top-navbar-links {
   div#top-navbar {
     left: 8% !important;
   }
+
+  .signup-btn {
+    margin-left: 440px;
+  }
+
+
 }
 
 @media (max-width: 767px) {
   span#top-navbar-links {
     display: none;
+  }
+
+  .signup-btn {
+    margin-left: 404px;
   }
 }
 
