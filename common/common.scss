@@ -332,22 +332,21 @@ span#top-navbar-links {
 
     span#top-navbar-links {
       display: none;
-  }
-  .signup-btn {
-    margin-left: 67px;
-  }
+    }
+    span#signup-button-container.signup-btn {
+      margin-left: 67px;
+    }
 
 }
 
 @media (max-width: 850px) {
     div#top-navbar {
       left: 6% !important;
-  }
-  
-  .signup-btn {
-    margin-left: 497px;
-  }
+    }
 
+    span#signup-button-container.signup-btn {
+      margin-left: 497px;
+    }
 }
 
 @media (max-width: 800px) {
