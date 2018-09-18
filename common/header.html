@@ -19,10 +19,11 @@
             if (loginButtons.length === 0) {
               //logged in
               createTopic.style.display = 'inline-block';
-              signupButton.style.color = 'red';
+              signupButton.style.display = 'none';
             }
             else {
               //logged out
+              signupButton.style.display = 'inline-block';
             }
             //show everything
             var topNavbar = document.getElementById("top-navbar");
