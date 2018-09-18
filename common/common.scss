@@ -135,8 +135,13 @@ span#signup-button-container {
     padding-bottom: 56.25% !important;
 }
 
-
-
+.signup-btn {
+  background-color: #00959B;
+  padding: 4px 16px;
+  color: #fff;
+  border-radius: 100px;
+  margin-left: 40px;
+}
 
 /*Adding DOW links to top - link text section*/
 span#top-navbar-links {
@@ -333,7 +338,7 @@ span#top-navbar-links {
     span#top-navbar-links {
       display: none;
     }
-    span#signup-button-container.signup-btn {
+    .signup-btn {
       margin-left: 67px;
     }
 
@@ -344,7 +349,7 @@ span#top-navbar-links {
       left: 6% !important;
     }
 
-    span#signup-button-container.signup-btn {
+    .signup-btn {
       margin-left: 497px;
     }
 }
