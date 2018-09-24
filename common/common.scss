@@ -1,5 +1,13 @@
-// Custom css
+// Table of contents
 
+// 1. Global overrides
+// 2. Header
+// 3. Body Styling
+
+
+/* ****************************
+      1. Global overrides     *
+******************************/
 html {
     font-family: 'Montserrat', sans-serif;
 }
@@ -28,40 +36,9 @@ body {
     background: none;
 }
 
-.topic-footer-main-buttons > button, .widget-button, .select-kit-header {
-    background: none;
-    color: #595959;
-    border: 1px solid #cad7dc;
-}
-
-#ember1014 {
-    border: 1px solid #cad7dc;
-    border-radius: 100px;
-}
-
-.topic-list th, .topic-list td {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.topic-list th {
-    background-color: #fff;
-}
-
-.list-controls {
-  padding-left: 24px;
-}
-
-.list-controls::before {
-    content: "View posts by:";
-    display: block;
-    float: left;
-    padding: 5px 17px 0 0;
-}
-
-.topic-list-item:hover {
-  background: #FBFCFD;
-}
+/* ****************************
+            2. Header         *
+******************************/
 
 .d-header-icons {
   margin: 0px -130px 0px 5px;
@@ -81,7 +58,6 @@ body {
   }
 }
 
-
 span#top-navbar-links {
   margin: 18px 0px 0px 0px;
   float: left;
@@ -92,47 +68,6 @@ span#signup-button-container {
   float: left;
   display: inline;
   margin-top: 18px;
-}
-
-.nav-pills > li.active > a, .nav-pills > li > a.active {
-  background-color: #64AE4A;
-}
-
-.nav-pills > li > a:hover {
-  background-color: #d0f5db;
-  color: #4ead5b;
-}
-
-// Article Page
-.topic-map {
-  display: none;
-}
-
-// Navigation
-.topic-list a.title:not(.badge-notification) {
-    font-family:"Open Sans";
-}
-
-.topic-list .badge-wrapper .badge-category {
-  padding: 0 10px 0 5px;
-}
-
-/*Reset washed out colors */
-.badge-category-bg {
-    opacity: 1;
-}
-
-/*Reset washed out colors */
-#topic-progress .bg {
-    background-color: #86ea86;
-}
-
-/*Youtube full width (from chapel/WYL)*/
-.lazyYT {
-    height: 0 !important;
-    width: 100% !important;
-    max-width: 674px;
-    padding-bottom: 56.25% !important;
 }
 
 .signup-btn {
@@ -152,13 +87,19 @@ span#top-navbar-links {
     margin:18px 0 0 0;
 }
 
-
-/*Start dropping DOW Menu links & shortening title on small windows*/
-
-.extra-info-wrapper .topic-link {
-    max-width:600px;
+/*Individual links*/
+a.dow-menu {
+    font-size: 14px;
+    padding:0 13px;
+    color:#000;
 }
 
+/*header shadow*/
+.d-header {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+}
+
+// Media query hell. Has to be a better way.
 @media (min-width: 1150px) {
     .extra-info-wrapper .topic-link {
         max-width:600px;
@@ -169,6 +110,20 @@ span#top-navbar-links {
 @media (max-width: 1149px) {
     div.title-wrapper {
          padding-right:280px;
+    }
+}
+
+@media screen and (min-width: 2001px) {
+    /*Adding DOW links to top - link container */
+    div#top-navbar {
+        max-width:none; /*remove max width*/
+        width: auto; /*prevent other widths taking over*/
+        z-index: 1040; /*stays on top of other header*/
+        /*position:relative;
+        float:left;*/
+        position:fixed;
+        top:0;
+        left: 38%;
     }
 }
 
@@ -494,28 +449,105 @@ span#top-navbar-links {
     }
 }
 
+
+// 3. Body Styling
+
+// All categories button
+.topic-footer-main-buttons > button, .widget-button, .select-kit-header {
+    background: none;
+    color: #595959;
+    border: 1px solid #cad7dc;
+}
+
+// Unsure what this does. Potentially remove
+#ember1014 {
+    border: 1px solid #cad7dc;
+    border-radius: 100px;
+}
+
+// Posts in list view
+.topic-list th, .topic-list td {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.topic-list th {
+    background-color: #fff;
+}
+
+.list-controls {
+  padding-left: 24px;
+}
+
+.list-controls::before {
+    content: "View posts by:";
+    display: block;
+    float: left;
+    padding: 5px 17px 0 0;
+}
+
+.topic-list-item:hover {
+  background: #FBFCFD;
+}
+
+// Category filters in list view
+.nav-pills > li.active > a, .nav-pills > li > a.active {
+  background-color: #64AE4A;
+}
+
+.nav-pills > li > a:hover {
+  background-color: #d0f5db;
+  color: #4ead5b;
+}
+
+// Article Page
+.topic-map {
+  display: none;
+}
+
+// Navigation
+.topic-list a.title:not(.badge-notification) {
+    font-family:"Open Sans";
+}
+
+.topic-list .badge-wrapper .badge-category {
+  padding: 0 10px 0 5px;
+}
+
+/*Reset washed out colors */
+.badge-category-bg {
+    opacity: 1;
+}
+
+/*Reset washed out colors */
+#topic-progress .bg {
+    background-color: #86ea86;
+}
+
+/*Youtube full width (from chapel/WYL)*/
+.lazyYT {
+    height: 0 !important;
+    width: 100% !important;
+    max-width: 674px;
+    padding-bottom: 56.25% !important;
+}
+
+/*Space between Youtube vids and pictures*/
+.lazyYT-container, .lightbox-wrapper, p img {
+    margin:10px 0;
+}
+
+/*Start dropping DOW Menu links & shortening title on small windows*/
+
+.extra-info-wrapper .topic-link {
+    max-width:600px;
+}
+
 /* Make green bar similar to Mezz*/
 #topic-title {  /*can do .list-controls as well*/
   background-color: #fff;
   padding-top: 20px; /*get rid of whitespace*/
   margin-top: -10px;
-}
-
-/*Individual links*/
-a.dow-menu {
-    font-size: 14px;
-    padding:0 13px;
-    color:#000;
-}
-
-/*header shadow*/
-.d-header {
-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
-}
-
-html {
-    font-family: "Open Sans", sans-serif;
-    font-weight:normal;
 }
 
 #topic-title h1 a {
@@ -525,11 +557,6 @@ html {
     line-height: 1.25em;
 }
 
-/*Space between Youtube vids and pictures*/
-
-.lazyYT-container, .lightbox-wrapper, p img {
-    margin:10px 0;
-}
 
 .extra-info.two-rows h1 {
 line-height: 1.25em;
@@ -723,8 +750,6 @@ ul#navigation-bar > li:first-child:before {
 
 
 .date-time span{display:none;}
-
-
 
 
 // Style button
