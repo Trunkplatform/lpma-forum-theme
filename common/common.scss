@@ -400,6 +400,12 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
   }
 }
 
+@media screen and (max-width: 400px) {
+  .signup-btn {
+    right: 138px;
+  }
+}
+
 @media (min-width: 571px) {
    i.fa.fa-home:before {
        display:none;
