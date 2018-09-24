@@ -312,7 +312,7 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
     }
 }
 
-@media (max-width: 900px) {  /*jumpover point*/
+@media screen and (max-width: 900px) {  /*jumpover point*/
     div.title-wrapper {
         padding-right:220px;
     }
@@ -322,7 +322,7 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
     }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   span#top-navbar-links {
     display: none;
   }
@@ -330,7 +330,7 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
 
 
 
-@media (max-width: 725px) {
+@media screen and (max-width: 725px) {
     a.dow-menu#library {
         display:none;
     }
@@ -340,8 +340,16 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
     span#top-navbar-links {
         margin-left:-290px;
     }
+
+    .signup-btn {
+      right: 5px;
+    }
 }
 
+// @media screen and (max-width: 725px)
+// .signup-btn {
+//   right: 5px;
+// }
 
 
 @media (min-width: 571px) {
