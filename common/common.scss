@@ -284,9 +284,10 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
 
    /*Adding DOW links to top - link text section*/
     span#top-navbar-links {
-      position: fixed;
-      top: 0;
-      margin:18px 0px 0px -385px;
+      // position: fixed;
+      // top: 0;
+      // margin:18px 0px 0px -385px;
+      display: none;
     }
 
     div#top-navbar {
