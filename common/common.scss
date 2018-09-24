@@ -77,11 +77,30 @@ span#signup-button-container {
   border-radius: 100px;
   margin-left: 40px;
   position: relative;
-  right: 36px;
+  right: 22px;
 }
 
 a.signup-btn:hover {
   color: #fff;
+}
+
+// Signup button media query hell
+@media screen and (max-width: 1850px) {
+  .signup-btn {
+    right: 32px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .signup-btn {
+    right: 40px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .signup-btn {
+    right: 45px;
+  }
 }
 
 /*Adding DOW links to top - link text section*/
