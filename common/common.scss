@@ -346,21 +346,23 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
     }
 }
 
-@media screen and (max-width: 690px)
-.signup-btn {
-  right: 10px;
+@media screen and (max-width: 690px) {
+  .signup-btn {
+    right: 10px;
+  }
 }
 
-@media screen and (max-width: 665px)
-.signup-btn {
-  right: 25px;
+@media screen and (max-width: 665px) {
+  .signup-btn {
+    right: 25px;
+  }
 }
 
-@media screen and (max-width: 650px)
-.signup-btn {
-  right: 36px;
+@media screen and (max-width: 650px) {
+  .signup-btn {
+    right: 36px;
+  }
 }
-
 
 @media (min-width: 571px) {
    i.fa.fa-home:before {
