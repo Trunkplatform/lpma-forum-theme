@@ -84,6 +84,10 @@ a.signup-btn:hover {
   color: #fff;
 }
 
+a.signup-btn:visited {
+  color: #fff;
+}
+
 // Signup button media query hell
 @media screen and (max-width: 1850px) {
   .signup-btn {
