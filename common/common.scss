@@ -76,6 +76,8 @@ span#signup-button-container {
   color: #fff;
   border-radius: 100px;
   margin-left: 40px;
+  position: relative;
+  right: 36px;
 }
 
 a.signup-btn:hover {
@@ -287,9 +289,6 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
 }
 
 @media (max-width: 900px) {  /*jumpover point*/
-/*div#top-navbar {
-    left: 50%;
-}*/
     div.title-wrapper {
         padding-right:220px;
     }
@@ -297,42 +296,24 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
     span#top-navbar-links {
       display: none;
     }
-    // .signup-btn {
-    //   margin-left: 67px;
-    // }
-
 }
 
 @media (max-width: 850px) {
     div#top-navbar {
       left: 6% !important;
     }
-
-    // .signup-btn {
-    //   margin-left: 460px;
-    // }
 }
 
 @media (max-width: 800px) {
   div#top-navbar {
     left: 8% !important;
   }
-  //
-  // .signup-btn {
-  //   margin-left: 440px;
-  // }
-
-
 }
 
 @media (max-width: 767px) {
   span#top-navbar-links {
     display: none;
   }
-
-  // .signup-btn {
-  //   margin-left: 404px;
-  // }
 }
 
 
@@ -347,31 +328,9 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
     span#top-navbar-links {
         margin-left:-290px;
     }
-
-    // .signup-btn {
-    //   margin-left: 385px;
-    // }
-
-}
-
-@media (max-width: 690px) {
-    // .signup-btn {
-    //   margin-left: 345px;
-    // }
-}
-
-@media (max-width: 650px) {
-    // .signup-btn {
-    //   margin-left: 300px;
-    // }
 }
 
 
-@media (max-width: 600px) {
-    // .signup-btn {
-    //   margin-left: 270px;
-    // }
-}
 
 @media (min-width: 571px) {
    i.fa.fa-home:before {
@@ -403,51 +362,19 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
     .extra-info-wrapper {
         display: block;
     }
-
-    // .signup-btn {
-    //   margin-left: 220px;
-    // }
 }
 
-@media (max-width: 530px) {
-  // .signup-btn {
-  //   margin-left: 190px;
-  // }
-}
 
-@media (max-width: 500px) {
-  // .signup-btn {
-  //   margin-left: 170px;
-  // }
-}
 
-@media (max-width: 470px) {
-  // .signup-btn {
-  //   margin-left: 150px;
-  // }
-}
+
 
 @media (max-width:455px) {
     .extra-info-wrapper {
         display: none;
     }
-    //
-    // .signup-btn {
-    //   margin-left: 90px;
-    // }
 }
 
-@media (max-width:420px) {
-    // .signup-btn {
-    //   margin-left: 70px;
-    // }
-}
 
-@media (max-width:360px) {
-    // .signup-btn {
-    //   margin-left: 30px;
-    // }
-}
 
 
 // 3. Body Styling
