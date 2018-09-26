@@ -29,7 +29,7 @@ div#top-navbar {
     width: auto; /*prevent other widths taking over*/
     z-index: 1040; /*stays on top of other header*/
     float:right;
-    position:relative;
+    position:fixed;
 }
 
 /*Copying bottom, footer and some CSS from Mezzanine*/
