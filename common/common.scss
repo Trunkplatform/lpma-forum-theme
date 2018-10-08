@@ -396,6 +396,18 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
   .login-button > i {
     display: none;
   }
+
+  span#signup-button-container {
+    width: 110px;
+    margin-left: -100px;
+  }
+
+  a.signup-btn {
+    margin-left: 140px;
+    width: 50px;
+  }
+
+
 }
 
 @media screen and (max-width: 485px) {
