@@ -819,3 +819,10 @@ section.admins {
   bottom: 0 !important;
   position: fixed !important;
 }
+
+.badge-card.medium {
+    vertical-align: top;
+    flex: 0 0 30%;
+    margin-right: calc(2% - 3px);
+    overflow: hidden;
+}
