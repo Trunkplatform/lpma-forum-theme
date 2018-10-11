@@ -810,3 +810,11 @@ button#create-topic {
 .topic-list tbody tr td .creator a:nth-child(2) {
   display: none;
 }
+
+section.admins {
+  display: none;
+}
+
+.topic-progress-wrapper {
+  bottom: 0 !important;
+}
