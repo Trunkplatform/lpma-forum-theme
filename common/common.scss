@@ -113,7 +113,6 @@ a.signup-btn:visited {
 /*Adding DOW links to top - link text section*/
 span#top-navbar-links {
     margin:18px 0 0 0;
-    pointer-events: all;
 }
 
 /*Individual links*/
@@ -842,4 +841,17 @@ section.admins {
 .badge-card .badge-contents .badge-icon img {
   max-height: 50px;
   max-width: 50px;
+}
+
+// Hacks to fix navbar 
+#top-navbar {
+    pointer-events: none;
+}
+
+#top-navbar-links {
+    pointer-events: all;
+}
+
+.signup-button-container {
+  pointer-events: all;
 }
