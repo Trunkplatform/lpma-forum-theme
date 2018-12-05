@@ -843,7 +843,7 @@ section.admins {
   max-width: 50px;
 }
 
-// Hacks to fix navbar 
+// Hacks to fix navbar
 #top-navbar {
     pointer-events: none;
 }
@@ -852,6 +852,6 @@ section.admins {
     pointer-events: all;
 }
 
-.signup-button-container {
+#signup-button-container {
   pointer-events: all;
 }
