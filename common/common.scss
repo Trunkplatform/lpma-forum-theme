@@ -62,6 +62,7 @@ span#top-navbar-links {
   margin: 18px 0px 0px 0px;
   float: left;
   display: inline;
+  pointer-events: none;
 }
 
 span#signup-button-container {
@@ -112,6 +113,7 @@ a.signup-btn:visited {
 /*Adding DOW links to top - link text section*/
 span#top-navbar-links {
     margin:18px 0 0 0;
+    pointer-events: all;
 }
 
 /*Individual links*/
